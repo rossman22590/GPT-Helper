@@ -622,7 +622,7 @@ img {
     animation: sk-scaleout 1s infinite ease-in-out;
 }
 
-@keyframes loader {
+@keyframes spinner {
   0% {
     background-color: blue!important;
   }

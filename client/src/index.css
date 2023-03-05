@@ -613,6 +613,7 @@ img {
 .spinner {
     width: 35px;
     height: 35px;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
     background-color: #667581;
     margin: auto 0px 8px 0px;
     border-radius: 100%;

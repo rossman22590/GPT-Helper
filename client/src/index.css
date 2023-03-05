@@ -618,11 +618,11 @@ img {
     background-color: rgba(255, 255, 255, 0.5);
     margin: auto 0px 8px 0px;
     border-radius: 100%;
-    -webkit-animation: sk-scaleout 3s infinite ease-in-out;
-    animation: sk-scaleout 3s infinite ease-in-out;
+    -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+    animation: sk-scaleout 1s infinite ease-in-out;
     animation-name: spinner;
     animaiton-name:sk-scaleout;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 @keyframes spinner {

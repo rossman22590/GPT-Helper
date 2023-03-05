@@ -253,6 +253,7 @@ img {
     background-image: url(https://img.mytsi.org/i/tbXW88.png);
     background-repeat: no-repeat;
     background-size: inherit;
+    background-position-y: 13px;
 }
 .container {
     display: flex;

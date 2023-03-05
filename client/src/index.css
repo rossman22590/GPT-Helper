@@ -618,14 +618,16 @@ img {
 }
 
 .loader {
-    width: 40px;
-    display: flex;
-    border-bottom-right-radius: 10px;
-    border-top: solid 1px antiquewhite;
-    border-right: solid 1px antiquewhite;
-    border-bottom: solid 1px antiquewhite;
-    border-top-right-radius: 10px;
     background-color: #222b36;
+    border-bottom: 1px solid #faebd7;
+    border-bottom-right-radius: 10px;
+    border-right: 1px solid #faebd7;
+    border-top: 1px solid #faebd7;
+    border-top-right-radius: 10px;
+    display: flex;
+    width: 40px;
+    margin-top: 0px;
+    margin-bottom: 4px;
 }
 .size-form-special {
     width: 910px;

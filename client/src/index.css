@@ -617,25 +617,25 @@ img {
     background-color: #667581;
     margin: auto 0px 8px 0px;
     border-radius: 100%;
-    -webkit-animation: sk-scaleout 1s infinite ease-in-out;
-    animation: sk-scaleout 1s infinite ease-in-out;
+    -webkit-animation: sk-scaleout 1s infinite ease-in-out!important;
+    animation: sk-scaleout 1s infinite ease-in-out!important;
 }
 
 @keyframes spinner {
   0% {
-    background-color: blue;
+    background-color: blue!important;
   }
   25% {
-    background-color: green;
+    background-color: green!important;
   }
   50% {
-    background-color: yellow;
+    background-color: yellow!important;
   }
   75% {
-    background-color: orange;
+    background-color: orange!important;
   }
   100% {
-    background-color: red;
+    background-color: red!important;
   }
 }
 

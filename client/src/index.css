@@ -622,7 +622,7 @@ img {
     animation: sk-scaleout 3s infinite ease-in-out;
     animation-name: spinner;
     animaiton-name:sk-scaleout;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 @keyframes spinner {

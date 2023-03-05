@@ -628,18 +628,29 @@ img {
 @keyframes spinner {
   0% {
     background-color: blue;
+      -webkit-transform: scale(0);
+        transform: scale(0);
   }
   25% {
     background-color: green;
+       -webkit-transform: scale(1);
+    transform: scale(1);
+     opacity: 0;
   }
   50% {
     background-color: yellow;
+        -webkit-transform: scale(0);
+        transform: scale(0);
   }
   75% {
     background-color: orange;
+        -webkit-transform: scale(1);
+    transform: scale(1);
+     opacity: 0;
   }
   100% {
-    background-color: red;
+  -webkit-transform: scale(0);
+        transform: scale(0);
   }
 }
 

@@ -612,15 +612,17 @@ img {
 /* Created By This Chat Bot ! */
 
 .spinner {
-    width: 35px;
-    height: 35px;
+ width: 135px;
+    height: 135px;
     animation: color-change 5s infinite;
-    background-color: #667581;
+    background-color: rgba(255, 255, 255, 0.5);
     margin: auto 0px 8px 0px;
     border-radius: 100%;
-    -webkit-animation: sk-scaleout 1s infinite ease-in-out;
-    animation: sk-scaleout 1s infinite ease-in-out;
+    -webkit-animation: sk-scaleout 4s infinite ease-in-out;
+    animation: sk-scaleout 4s infinite ease-in-out;
     animation-name: spinner;
+    animaiton-name:sk-scaleout;
+    opacity: 0.3;
 }
 
 @keyframes spinner {

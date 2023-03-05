@@ -250,6 +250,9 @@ img {
     position: fixed;
     z-index: 10;
     background-color: var(--background-dark);
+    background-image: url(https://img.mytsi.org/i/tbXW88.png);
+    background-repeat: no-repeat;
+    background-size: inherit;
 }
 .container {
     display: flex;

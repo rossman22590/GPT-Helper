@@ -613,12 +613,30 @@ img {
 .spinner {
     width: 35px;
     height: 35px;
-    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  animation: color-change 5s infinite;
     background-color: #667581;
     margin: auto 0px 8px 0px;
     border-radius: 100%;
     -webkit-animation: sk-scaleout 1s infinite ease-in-out;
     animation: sk-scaleout 1s infinite ease-in-out;
+}
+
+@keyframes spinner {
+  0% {
+    background-color: blue;
+  }
+  25% {
+    background-color: green;
+  }
+  50% {
+    background-color: yellow;
+  }
+  75% {
+    background-color: orange;
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 .loader {

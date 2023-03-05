@@ -642,7 +642,7 @@ img {
 }
 
 .loader {
-    background-color: #2d2d2d;
+    background-color: #000000;
     border-bottom: 1px solid #faebd7;
     border-bottom-right-radius: 10px;
     border-right: 1px solid #faebd7;

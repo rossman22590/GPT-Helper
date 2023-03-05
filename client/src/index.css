@@ -610,18 +610,19 @@ img {
 /* ╰────────────────────────────╯ */
 
 /* Created By This Chat Bot ! */
+
 .spinner {
     width: 35px;
     height: 35px;
-  animation: color-change 5s infinite;
+    animation: color-change 5s infinite;
     background-color: #667581;
     margin: auto 0px 8px 0px;
     border-radius: 100%;
-    -webkit-animation: sk-scaleout 1s infinite ease-in-out!important;
-    animation: sk-scaleout 1s infinite ease-in-out!important;
+    -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+    animation: sk-scaleout 1s infinite ease-in-out;
 }
 
-@keyframes spinner {
+@keyframes loader {
   0% {
     background-color: blue!important;
   }
@@ -640,6 +641,7 @@ img {
 }
 
 .loader {
+    animation: color-change 5s infinite;
     background-color: #222b36;
     border-bottom: 1px solid #faebd7;
     border-bottom-right-radius: 10px;

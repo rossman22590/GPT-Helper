@@ -625,19 +625,19 @@ img {
 
 @keyframes spinner {
   0% {
-    background-color: blue!important;
+    background-color: blue;
   }
   25% {
-    background-color: green!important;
+    background-color: green;
   }
   50% {
-    background-color: yellow!important;
+    background-color: yellow;
   }
   75% {
-    background-color: orange!important;
+    background-color: orange;
   }
   100% {
-    background-color: red!important;
+    background-color: red;
   }
 }
 
